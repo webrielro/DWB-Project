@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#newsimg {
+  width: 100%;
+  height: 170px;
+}
+
+#newsimgf {
+  width: 100%;
+  height: 250px;
+}
+
+#newscontainer h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem;
+  color: #000000;
+  font-size: 25px;
+  flex-direction: initial;
+}
+
+.buttoncontainer {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+
+#news-card-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.buttoncontainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 7px;
+}
+
+.buttoncontainer a {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #8f09c0;
+  border: none;
+}
+
+.buttoncontainer a:hover {
+  color: #ad20e0;
+  background-color: transparent;
+  transition: 1s ease-in-out;
+}
+
+#newscardtitle {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+#cardtextnews {
+  font-size: 15px;
+}

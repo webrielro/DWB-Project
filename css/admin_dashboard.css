@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.websitelogo {
+  width: 200px;
+  height: 100px;
+  margin: 15px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  width: 500px;
+  background-color: #a309d9;
+  border-left: 4px solid #e6e6e6;
+  margin-bottom: 15px;
+}
+.option {
+  margin: 10px;
+  padding: 10px;
+  background-color: #a309d9;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  text-decoration: none;
+}
+.account {
+  position: absolute;
+  top: 0;
+  margin: 15px;
+  right: 50px;
+  cursor: pointer;
+  color: #fff;
+}
+.account i {
+  margin-left: 5px;
+}
+.account-dropdown {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+}
+.account-dropdown a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.account-dropdown a:hover {
+  background-color: #555;
+}
